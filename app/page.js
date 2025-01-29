@@ -40,7 +40,7 @@ export default function Home() {
 
     // Get the current network
     const network = await provider.getNetwork()
-
+    
     // Create reference to Factory contract
     const factory = new ethers.Contract(config[network.chainId].factory.address, Factory, provider)
     setFactory(factory)
