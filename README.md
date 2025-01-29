@@ -1,4 +1,4 @@
-# fun.pump
+# pump.fun.clone
 
 ## Technology Stack & Tools
 
